@@ -3,7 +3,7 @@ $validator=new HTML5Validate();
 
 // Validate (returns TRUE or FALSE)
 $result=$validator->Assert('<p style="color:red;font-size:35px;text-align:center"><b><i> Welcome
-To My WebSite! </i></b></p>');
+To My </i></b></p>');
 
 // Get explanation of what's wrong (if validation failed)
 print $validator->message;
